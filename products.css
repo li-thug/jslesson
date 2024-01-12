@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+.container{
+    display: flex;
+}
+
+.cats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cat-items{
+    cursor: pointer;
+    font-size: 20px;
+    padding:5px;
+}
+
+.productBox{
+    flex:4;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 250px;
+    height:250px;
+}
+
+.name{
+    margin-bottom: 0;
+}
+
+.priceText{
+    font-weight: bold;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .btn {
+        background-color: yellow;
+        color: white;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="stylebutton">click me to add style</button>
+    <button id="alertme">alert me</button>
+    <p id="abcd" onclick="changeColor()">click to change colour</p>
+    <!-- element by id -->
+    <p id="hello">hello dom</p>
+
+    <!-- element by name -->
+    <div>
+      <input type="radio" name="coding" value="javascript" />
+
+      <label>
+        <input type="radio" name="rate" value="very bad" id="very-bad" />
+        very bad
+      </label>
+
+      <label>
+        <input type="radio" name="rate" value="very good" id="very-good" />
+        very good
+      </label>
+      <button id="btnRate">submit</button>
+      <p id="output"></p>
+    </div>
+
+    <!-- element by tag name -->
+    <h1>first heading</h1>
+    <h1>second heading</h1>
+
+    <!-- element by classname -->
+    <p class="domClass">i'am learning dom</p>
+    <p class="domClass">dom manipulation</p>
+    <p class="domClass">manipulation</p>
+    <!-- add image -->
+    <img id="myImg" />
+
+    <!-- navigating the node tree -->
+    <div id="parent">
+      <div id="first-child">first child</div>
+      <p id="second-child">second child</p>
+      <h3>it's hramattan</h3>
+      <p>last child</p>
+    </div>
+
+    <p>
+      Js statement are comprised of -values operators, expressions, keywords,
+      and comment
+    </p>
+    <p>
+      js statement often start with a keywords to identify the js action that is
+      to be performed
+    </p>
+    <p>
+      An expression is a combination of values, variable, and operator which
+      computes to a value
+    </p>
+    <script src="./variable.js" type="module"></script>
+    <script src="./datatypes.js" type="module"></script>
+    <script src="./operators.js" type="module"></script>
+    <script src="./string.js" type="module"></script>
+    <script src="./numbers.js" type="module"></script>
+    <script src="./objects.js" type="module"></script>
+    <script src="./arrays.js" type="module"></script>
+    <script src="./ifelseswitch.js" type="module"></script>
+    <script src="./functions.js" type="module"></script>
+    <script src="./loops.js" type="module"></script>
+    <script src="./higherOrderFunctions.js" type="module"></script>
+    <script src="./dom.js" type="module"></script>
+  </body>
+</html>
